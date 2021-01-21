@@ -42,11 +42,19 @@ ul li {
   
 }
 
+/* Sets style to the footer */
 footer{
  
   color:#4e4d4d;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255,.8);
+  text-align: center;
 
 }
+
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
